@@ -1,0 +1,75 @@
+/ src/public/assets/styles.css /
+
+ {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #0072ff;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #0072ff;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #0072ff;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.features {
+  margin-bottom: 30px;
+}
+
+.get-started {
+  margin-top: 30px;
+}
