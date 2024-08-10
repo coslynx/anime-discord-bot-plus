@@ -1,0 +1,65 @@
+const DISCORD_API_VERSION = '10';
+const CRUNCHYROLL_API_BASE_URL = 'https://api.crunchyroll.com';
+const FUNIMATION_API_BASE_URL = 'https://api.funimation.com';
+const NETFLIX_API_BASE_URL = 'https://api.netflix.com';
+const MYANIMELIST_API_BASE_URL = 'https://api.myanimelist.net/v2';
+const OPENAI_API_BASE_URL = 'https://api.openai.com/v1';
+const DEFAULT_STREAMING_SERVICE = 'crunchyroll';
+const DEFAULT_PLAYBACK_SPEED = 1.0;
+const DEFAULT_AUTOPLAY = false;
+const DEFAULT_VOLUME = 50;
+const COMMAND_PREFIX = '!';
+const ANIMATION_DURATION = 500;
+const ANIME_CHANNEL_SUFFIX = '-channel';
+const DEFAULT_QUIZ_DIFFICULTY = 1;
+const DEFAULT_QUIZ_ROUNDS = 5;
+const DEFAULT_TRIVIA_DIFFICULTY = 1;
+const DEFAULT_TRIVIA_ROUNDS = 5;
+const EMBED_COLORS = {
+  SUCCESS: 0x00FF00,
+  ERROR: 0xFF0000,
+  INFO: 0x0099FF,
+  WARNING: 0xFFFF00,
+};
+const LOG_LEVELS = {
+  DEBUG: 'debug',
+  INFO: 'info',
+  WARN: 'warn',
+  ERROR: 'error',
+};
+const QUEUE_LOOP_TYPES = {
+  OFF: 'off',
+  SONG: 'song',
+  QUEUE: 'queue',
+};
+const DATABASE_COLLECTIONS = {
+  USERS: 'users',
+  ANIMES: 'animes',
+  ANIME_CHANNELS: 'animeChannels',
+  CUSTOM_COMMANDS: 'customCommands',
+  QUEUES: 'queues',
+};
+
+module.exports = {
+  DISCORD_API_VERSION,
+  CRUNCHYROLL_API_BASE_URL,
+  FUNIMATION_API_BASE_URL,
+  NETFLIX_API_BASE_URL,
+  MYANIMELIST_API_BASE_URL,
+  OPENAI_API_BASE_URL,
+  DEFAULT_STREAMING_SERVICE,
+  DEFAULT_PLAYBACK_SPEED,
+  DEFAULT_AUTOPLAY,
+  DEFAULT_VOLUME,
+  COMMAND_PREFIX,
+  ANIMATION_DURATION,
+  ANIME_CHANNEL_SUFFIX,
+  DEFAULT_QUIZ_DIFFICULTY,
+  DEFAULT_QUIZ_ROUNDS,
+  DEFAULT_TRIVIA_DIFFICULTY,
+  DEFAULT_TRIVIA_ROUNDS,
+  EMBED_COLORS,
+  LOG_LEVELS,
+  QUEUE_LOOP_TYPES,
+  DATABASE_COLLECTIONS,
+};
