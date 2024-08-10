@@ -1,0 +1,54 @@
+{
+  "name": "anime-discord-bot-plus",
+  "version": "1.0.0",
+  "description": "A Discord bot for enhanced anime viewing and community engagement.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "tsc && tsc-watch --onSuccess \"npm run build:prod\"",
+    "build:prod": "tsc && tsc-watch --onSuccess \"npm run build:prod\"",
+    "lint": "eslint src//.ts",
+    "format": "prettier --write src//.ts",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spectra-ai-codegen/anime-discord-bot-plus.git"
+  },
+  "author": "Spectra.codes",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cheerio": "^1.0.10",
+    "@types/discord.js": "^14.6.4",
+    "@types/dotenv": "^8.2.0",
+    "@types/jest": "^29.2.4",
+    "@types/node": "^18.11.11",
+    "@types/node-fetch": "^2.6.2",
+    "@types/ytdl-core": "^4.0.10",
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "axios": "^1.3.4",
+    "cheerio": "^1.0.0-rc.12",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.8.3",
+    "node-fetch": "^3.3.0",
+    "ytdl-core": "^4.12.1"
+  },
+  "bugs": {
+    "url": "https://github.com/spectra-ai-codegen/anime-discord-bot-plus/issues"
+  },
+  "homepage": "https://github.com/spectra-ai-codegen/anime-discord-bot-plus#readme"
+}
